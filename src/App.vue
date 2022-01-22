@@ -1,13 +1,22 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <header>
+    <h1>Vue Practive</h1>
+  </header>
+  <main>
+    <ListCustomers />
+  </main>
+  <footer>
+    <address>
+      Tiago Pinto - tig-mmp -
+      <a href="https://github.com/tig-mmp" target="_blank">github</a> -
+      <a href-="https://www.linkedin.com/in/tiagopinto-programador" target="_blank">linkedin</a>
+    </address>
+  </footer>
 </template>
+
+<script setup>
+import ListCustomers from './components/ListCustomers.vue';
+</script>
 
 <style>
 #app {
