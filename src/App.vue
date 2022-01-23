@@ -9,7 +9,7 @@
     <address>
       Tiago Pinto - tig-mmp -
       <a href="https://github.com/tig-mmp" target="_blank">github</a> -
-      <a href-="https://www.linkedin.com/in/tiagopinto-programador" target="_blank">linkedin</a>
+      <a href="https://www.linkedin.com/in/tiagopinto-programador" target="_blank">linkedin</a>
     </address>
   </footer>
 </template>
