@@ -18,6 +18,7 @@ tasks:
     init: gp sync-await dependencies
     command: npx json-server --watch data/db.json -p 3001
     openMode: split-right
+
 vscode:
   extensions:
     - dbaeumer.vscode-eslint
@@ -27,7 +28,3 @@ ports:
   - port: 3000
     onOpen: open-preview
   - port: 3001
-
-vscode:
-  extensions:
-    - dbaeumer.vscode-eslint
