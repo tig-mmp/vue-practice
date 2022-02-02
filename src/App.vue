@@ -5,7 +5,7 @@
   <main>
     <ListCustomers />
   </main>
-  <footer>
+  <footer class="mt-6">
     <address>
       Tiago Pinto - tig-mmp -
       <a href="https://github.com/tig-mmp" target="_blank">github</a> -
