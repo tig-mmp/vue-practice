@@ -38,7 +38,7 @@ import DataTable from "primevue/datatable";
 import InputText from "primevue/inputtext";
 import { ref } from "vue";
 import CountryFlag from "vue-country-flag-next";
-import { Country } from "../interfaces/Country";
+import { Customer } from "../interfaces/Customer";
 
 const filters = ref({
   global: { value: null, matchMode: FilterMatchMode.CONTAINS },
@@ -47,6 +47,6 @@ const filters = ref({
 const {
   data: customers,
   isFinished,
-} = useAxios<Country[]>("http://localhost:3001/customers");
+} = useAxios<Customer[]>("http://localhost:3001/customers");
 
 </script>
